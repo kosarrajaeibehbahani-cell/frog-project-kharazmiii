@@ -1,0 +1,67 @@
+body {
+    background: #b9e8dc;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #176b52;
+}
+
+.game {
+    background: white;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.pond {
+    background: #66c9d5;
+    height: 160px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.leaf {
+    font-size: 35px;
+}
+
+#frog {
+    font-size: 40px;
+    position: absolute;
+    right: 5%;
+    transition: all 0.5s ease;
+}
+
+input {
+    padding: 12px;
+    border: 2px solid #55ad88;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 150px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #269b70;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background: #176b52;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Frog Math Adventure</title>
+    <link rel="stylesheet" href="frog.css">
+</head>
+<body>
+
+    <h1>🐸 ماجراجویی قورباغه ریاضی</h1>
+
+    <div class="game">
+        <h2 id="level">مرحله ۱</h2>
+
+        <div class="pond">
+            <div id="frog">🐸</div>
+            <div class="leaf">🌿</div>
+            <div class="leaf">🌿</div>
+            <div class="leaf">🌿</div>
+            <div class="leaf">🌿</div>
+            <div class="leaf">🌿</div>
+        </div>
+
+        <h2 id="question">۱۵ + ۲۷ = ؟</h2>
+
+        <input
+            type="number"
+            id="answer"
+            placeholder="جوابت را بنویس"
+        >
+
+        <button onclick="checkAnswer()">
+            بررسی پاسخ
+        </button>
+
+        <p id="message"></p>
+        <p id="score">امتیاز: ۰</p>
+    </div>
+
+    <script src="frog.js"></script>
+</body>
+</html>
